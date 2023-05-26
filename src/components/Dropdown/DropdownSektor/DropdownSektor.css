@@ -3,7 +3,7 @@
     display: flex;
     flex: 1;
     flex-direction: row;
-    width: 50%;
+    width: 100%;
     background-color: F7F7F7;
     justify-content: left;
     /* background-color: tomato; */
@@ -14,7 +14,6 @@
     grid-template-areas: 
       " dropdown-kecamatan cari-btn"; */
   }
-  
   .dropdown-sektor{
     margin-right: 0;
     /* background-color: tomato; */
@@ -25,7 +24,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 490px; /* Ubah nilai ini untuk menentukan lebar button dropdown */
+    width: 100%; /* Ubah nilai ini untuk menentukan lebar button dropdown */
     height: 50px;
     border: none;
     border-radius: 13px;
@@ -54,6 +53,7 @@
     box-shadow: 0 2px 4px rgba(0,0,0,0.2);
   }
   
+
   .dropdown-menu-sektor div {
     cursor: pointer;
     display: block;
@@ -66,3 +66,4 @@
   .dropdown-menu div:hover {
     background-color: #4692FD;
   }
+
